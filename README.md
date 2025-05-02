@@ -26,8 +26,16 @@ Le simulateur intègre plusieurs **méthodes de résolution numérique** :
 
 ##  Structure du Projet
 
-'''cpp
-
+```
+jacqueselouanpoo3/
+├── Sources/
+│ ├── main.cpp # Programme principal : point d'entrée
+│ ├── sources.cpp # Méthodes numériques (Euler, Heun, Runge-Kutta)
+│ └── circuits_jacqueselouan.cpp # Définition des circuits
+│
+└── Headers/
+├── sources.h # Déclarations des solveurs
+└── circuits_jacqueselouan.h # Déclarations des circuits
 
 
 ##  Compilation & Exécution
